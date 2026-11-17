@@ -1,0 +1,639 @@
+[
+  {
+    "id": "HM001",
+    "category": "hot-drinks",
+    "ar": "شاي",
+    "en": "Tea",
+    "price": 35
+  },
+  {
+    "id": "HM002",
+    "category": "hot-drinks",
+    "ar": "شاي باللبن",
+    "en": "Milk Tea",
+    "price": 45
+  },
+  {
+    "id": "HM003",
+    "category": "hot-drinks",
+    "ar": "قهوة تركي",
+    "en": "Turkish Coffee",
+    "price": 50
+  },
+  {
+    "id": "HM004",
+    "category": "hot-drinks",
+    "ar": "قهوة تركي دبل",
+    "en": "Double Turkish Coffee",
+    "price": 55
+  },
+  {
+    "id": "HM005",
+    "category": "hot-drinks",
+    "ar": "قهوة تركي باللبن",
+    "en": "Turkish Coffee with Milk",
+    "price": 60
+  },
+  {
+    "id": "HM006",
+    "category": "hot-drinks",
+    "ar": "نسكافيه بلاك",
+    "en": "Black Nescafe",
+    "price": 50
+  },
+  {
+    "id": "HM007",
+    "category": "hot-drinks",
+    "ar": "نسكافيه باللبن",
+    "en": "Nescafe with Milk",
+    "price": 60
+  },
+  {
+    "id": "HM008",
+    "category": "hot-drinks",
+    "ar": "إسبريسو سنجل",
+    "en": "Single Espresso",
+    "price": 50
+  },
+  {
+    "id": "HM009",
+    "category": "hot-drinks",
+    "ar": "إسبريسو دبل",
+    "en": "Double Espresso",
+    "price": 55
+  },
+  {
+    "id": "HM010",
+    "category": "hot-drinks",
+    "ar": "كابتشينو",
+    "en": "Cappuccino",
+    "price": 60
+  },
+  {
+    "id": "HM011",
+    "category": "hot-drinks",
+    "ar": "كاكاو",
+    "en": "Hot Cocoa",
+    "price": 55
+  },
+  {
+    "id": "HM012",
+    "category": "hot-drinks",
+    "ar": "شيكولا جلاسيه",
+    "en": "Chocolate Glacé",
+    "price": 55
+  },
+  {
+    "id": "HM013",
+    "category": "cold-drinks",
+    "ar": "فرابتشينو",
+    "en": "Frappuccino",
+    "price": 50
+  },
+  {
+    "id": "HM014",
+    "category": "cold-drinks",
+    "ar": "فلوريدا",
+    "en": "Florida",
+    "price": 55
+  },
+  {
+    "id": "HM015",
+    "category": "cold-drinks",
+    "ar": "مانجو",
+    "en": "Mango Juice",
+    "price": 65
+  },
+  {
+    "id": "HM016",
+    "category": "cold-drinks",
+    "ar": "كيوي",
+    "en": "Kiwi Juice",
+    "price": 120
+  },
+  {
+    "id": "HM017",
+    "category": "cold-drinks",
+    "ar": "رمان",
+    "en": "Pomegranate Juice",
+    "price": 110
+  },
+  {
+    "id": "HM018",
+    "category": "cold-drinks",
+    "ar": "برتقال",
+    "en": "Orange Juice",
+    "price": 65
+  },
+  {
+    "id": "HM019",
+    "category": "cold-drinks",
+    "ar": "موز",
+    "en": "Banana Juice",
+    "price": 45
+  },
+  {
+    "id": "HM020",
+    "category": "cold-drinks",
+    "ar": "فراولة",
+    "en": "Strawberry Juice",
+    "price": 35
+  },
+  {
+    "id": "HM021",
+    "category": "cold-drinks",
+    "ar": "جوافة",
+    "en": "Guava Juice",
+    "price": 40
+  },
+  {
+    "id": "HM022",
+    "category": "cold-drinks",
+    "ar": "دوم",
+    "en": "Doum Juice",
+    "price": 50
+  },
+  {
+    "id": "HM023",
+    "category": "cold-drinks",
+    "ar": "ليمون",
+    "en": "Lemon Juice",
+    "price": 35
+  },
+  {
+    "id": "HM024",
+    "category": "cold-drinks",
+    "ar": "خوخ",
+    "en": "Peach Juice",
+    "price": 46
+  },
+  {
+    "id": "HM025",
+    "category": "cold-drinks",
+    "ar": "تمر هندي",
+    "en": "Tamarind",
+    "price": 40
+  },
+  {
+    "id": "HM026",
+    "category": "cold-drinks",
+    "ar": "عناب",
+    "en": "Hibiscus",
+    "price": 40
+  },
+  {
+    "id": "HM027",
+    "category": "cold-drinks",
+    "ar": "خروب",
+    "en": "Carob",
+    "price": 40
+  },
+  {
+    "id": "HM028",
+    "category": "cold-drinks",
+    "ar": "مياه معدنية صغيرة",
+    "en": "Small Mineral Water",
+    "price": 15
+  },
+  {
+    "id": "HM029",
+    "category": "cold-drinks",
+    "ar": "مياه معدنية كبيرة",
+    "en": "Large Mineral Water",
+    "price": 20
+  },
+  {
+    "id": "HM030",
+    "category": "dessert-cups",
+    "ar": "خوخ بالكريمة",
+    "en": "Peach with Cream",
+    "price": 50
+  },
+  {
+    "id": "HM031",
+    "category": "dessert-cups",
+    "ar": "أناناس بالكريمة",
+    "en": "Pineapple with Cream",
+    "price": 50
+  },
+  {
+    "id": "HM032",
+    "category": "dessert-cups",
+    "ar": "موز بالكريمة",
+    "en": "Banana with Cream",
+    "price": 50
+  },
+  {
+    "id": "HM033",
+    "category": "dessert-cups",
+    "ar": "تفاح بالكريمة",
+    "en": "Apple with Cream",
+    "price": 55
+  },
+  {
+    "id": "HM034",
+    "category": "dessert-cups",
+    "ar": "مانجو بالكريمة",
+    "en": "Mango with Cream",
+    "price": 55
+  },
+  {
+    "id": "HM035",
+    "category": "dessert-cups",
+    "ar": "فراولة بالكريمة",
+    "en": "Strawberry with Cream",
+    "price": 50
+  },
+  {
+    "id": "HM036",
+    "category": "dessert-cups",
+    "ar": "كوكتيل فواكه بالكريمة",
+    "en": "Fruit Cocktail with Cream",
+    "price": 80
+  },
+  {
+    "id": "HM037",
+    "category": "dessert-cups",
+    "ar": "فروت سالاد",
+    "en": "Fruit Salad",
+    "price": 60
+  },
+  {
+    "id": "HM038",
+    "category": "dessert-cups",
+    "ar": "كريم كراميل",
+    "en": "Crème Caramel",
+    "price": 45
+  },
+  {
+    "id": "HM039",
+    "category": "dessert-cups",
+    "ar": "جيلي سادة",
+    "en": "Plain Jelly",
+    "price": 40
+  },
+  {
+    "id": "HM040",
+    "category": "dessert-cups",
+    "ar": "جيلي فواكه",
+    "en": "Fruit Jelly",
+    "price": 60
+  },
+  {
+    "id": "HM041",
+    "category": "dessert-cups",
+    "ar": "كاستر سادة",
+    "en": "Plain Custard",
+    "price": 45
+  },
+  {
+    "id": "HM042",
+    "category": "dessert-cups",
+    "ar": "كاستر مكسرات",
+    "en": "Custard with Nuts",
+    "price": 50
+  },
+  {
+    "id": "HM043",
+    "category": "dessert-cups",
+    "ar": "كاستر فواكه",
+    "en": "Fruit Custard",
+    "price": 60
+  },
+  {
+    "id": "HM044",
+    "category": "dessert-cups",
+    "ar": "رز سادة",
+    "en": "Rice Pudding",
+    "price": 45
+  },
+  {
+    "id": "HM045",
+    "category": "dessert-cups",
+    "ar": "رز مكسرات / نوتيلا / كراميل",
+    "en": "Rice Pudding with Nuts / Nutella / Caramel",
+    "price": 50
+  },
+  {
+    "id": "HM046",
+    "category": "dessert-cups",
+    "ar": "رز بالآيس كريم",
+    "en": "Rice Pudding with Ice Cream",
+    "price": 55
+  },
+  {
+    "id": "HM047",
+    "category": "dessert-cups",
+    "ar": "رز قشطة وبسبوسة",
+    "en": "Rice Pudding with Cream and Basbousa",
+    "price": 70
+  },
+  {
+    "id": "HM048",
+    "category": "dessert-cups",
+    "ar": "رز كنافة ولوتس",
+    "en": "Rice Pudding with Kunafa and Lotus",
+    "price": 70
+  },
+  {
+    "id": "HM049",
+    "category": "dessert-cups",
+    "ar": "عاشوراء سادة",
+    "en": "Plain Ashoura",
+    "price": 45
+  },
+  {
+    "id": "HM050",
+    "category": "dessert-cups",
+    "ar": "عاشوراء مكسرات",
+    "en": "Ashoura with Nuts",
+    "price": 50
+  },
+  {
+    "id": "HM051",
+    "category": "dessert-cups",
+    "ar": "قمر الدين",
+    "en": "Qamar Al-Din",
+    "price": 45
+  },
+  {
+    "id": "HM052",
+    "category": "dessert-cups",
+    "ar": "شوكو أب",
+    "en": "Choco Up",
+    "price": 60
+  },
+  {
+    "id": "HM053",
+    "category": "dessert-cups",
+    "ar": "بودنج",
+    "en": "Pudding",
+    "price": 40
+  },
+  {
+    "id": "HM054",
+    "category": "dessert-cups",
+    "ar": "قطعة جلاس",
+    "en": "Glace Slice",
+    "price": 70
+  },
+  {
+    "id": "HM055",
+    "category": "dessert-cups",
+    "ar": "كاساتا",
+    "en": "Cassata",
+    "price": 70
+  },
+  {
+    "id": "HM056",
+    "category": "dessert-cups",
+    "ar": "كوب آيس كريم",
+    "en": "Ice Cream Cup",
+    "price": 70
+  },
+  {
+    "id": "HM057",
+    "category": "dessert-cups",
+    "ar": "آيس كريم صودا",
+    "en": "Ice Cream Soda",
+    "price": 100
+  },
+  {
+    "id": "HM058",
+    "category": "dessert-cups",
+    "ar": "آيس كريم فواكه",
+    "en": "Fruit Ice Cream",
+    "price": 90
+  },
+  {
+    "id": "HM059",
+    "category": "dessert-cups",
+    "ar": "آيس كريم مكسرات",
+    "en": "Nuts Ice Cream",
+    "price": 50
+  },
+  {
+    "id": "HM060",
+    "category": "dessert-cups",
+    "ar": "آيس كريم سوفت",
+    "en": "Soft Ice Cream",
+    "price": 40
+  },
+  {
+    "id": "HM061",
+    "category": "dessert-cups",
+    "ar": "آيس كريم أوريو",
+    "en": "Oreo Ice Cream",
+    "price": 70
+  },
+  {
+    "id": "HM062",
+    "category": "dessert-cups",
+    "ar": "آيس كريم ٢ بولة",
+    "en": "Two Scoops of Ice Cream",
+    "price": 100
+  },
+  {
+    "id": "HM063",
+    "category": "dessert-cups",
+    "ar": "موس شيكولاتة",
+    "en": "Chocolate Mousse",
+    "price": 50
+  },
+  {
+    "id": "HM064",
+    "category": "dessert-cups",
+    "ar": "ديسباسيتو",
+    "en": "Despacito Cake",
+    "price": 55
+  },
+  {
+    "id": "HM065",
+    "category": "dessert-cups",
+    "ar": "مولتن كيك",
+    "en": "Molten Cake",
+    "price": 70
+  },
+  {
+    "id": "HM066",
+    "category": "dessert-cups",
+    "ar": "مولتن كيك بالآيس كريم",
+    "en": "Molten Cake with Ice Cream",
+    "price": 110
+  },
+  {
+    "id": "HM067",
+    "category": "dessert-cups",
+    "ar": "تشيز كيك",
+    "en": "Cheesecake",
+    "price": 70
+  },
+  {
+    "id": "HM068",
+    "category": "dessert-cups",
+    "ar": "تري ليتش",
+    "en": "Tres Leches",
+    "price": 110
+  },
+  {
+    "id": "HM069",
+    "category": "dessert-cups",
+    "ar": "فطيرة تفاح",
+    "en": "Apple Pie",
+    "price": 70
+  },
+  {
+    "id": "HM070",
+    "category": "dessert-cups",
+    "ar": "سينابون رول شيكولاتة / كراميل",
+    "en": "Cinnamon Roll Chocolate / Caramel",
+    "price": 70
+  },
+  {
+    "id": "HM071",
+    "category": "dessert-cups",
+    "ar": "وافل شيكولاتة / كراميل / لوتس / فستق",
+    "en": "Waffle Chocolate / Caramel / Lotus / Pistachio",
+    "price": 90
+  },
+  {
+    "id": "HM072",
+    "category": "dessert-cups",
+    "ar": "وافل بالآيس كريم",
+    "en": "Waffle with Ice Cream",
+    "price": 130
+  },
+  {
+    "id": "HM073",
+    "category": "dessert-cups",
+    "ar": "برطمان مانجو / شيكولاتة",
+    "en": "Jar Dessert Mango / Chocolate",
+    "price": 100
+  },
+  {
+    "id": "HM074",
+    "category": "dessert-cups",
+    "ar": "برطمان موز كراميل / كنافة فستق",
+    "en": "Jar Dessert Banana Caramel / Pistachio Kunafa",
+    "price": 90
+  },
+  {
+    "id": "HM075",
+    "category": "mixed-plates",
+    "ar": "أم علي",
+    "en": "Om Ali",
+    "price": 85
+  },
+  {
+    "id": "HM076",
+    "category": "mixed-plates",
+    "ar": "كنافة باللبن",
+    "en": "Kunafa with Milk",
+    "price": 60
+  },
+  {
+    "id": "HM077",
+    "category": "mixed-plates",
+    "ar": "بليلة بالمكسرات",
+    "en": "Wheat Pudding with Nuts",
+    "price": 60
+  },
+  {
+    "id": "HM078",
+    "category": "mixed-plates",
+    "ar": "جاتوه من اختيارك",
+    "en": "Cake of Your Choice",
+    "price": 55
+  },
+  {
+    "id": "HM079",
+    "category": "mixed-plates",
+    "ar": "باتيه شيكولاتة",
+    "en": "Chocolate Pastry",
+    "price": 60
+  },
+  {
+    "id": "HM080",
+    "category": "mixed-plates",
+    "ar": "كرواسون رومي",
+    "en": "Roumy Cheese Croissant",
+    "price": 55
+  },
+  {
+    "id": "HM081",
+    "category": "mixed-plates",
+    "ar": "باتيه جبنة",
+    "en": "Cheese Pastry",
+    "price": 60
+  },
+  {
+    "id": "HM082",
+    "category": "mixed-plates",
+    "ar": "كرواسون سادة",
+    "en": "Plain Croissant",
+    "price": 50
+  },
+  {
+    "id": "HM083",
+    "category": "mixed-plates",
+    "ar": "دنش فواكه / قرفة / نوتيلا",
+    "en": "Danish Fruit / Cinnamon / Nutella",
+    "price": 70
+  },
+  {
+    "id": "HM084",
+    "category": "specials",
+    "ar": "بانانا سبليت",
+    "en": "Banana Split",
+    "price": 75
+  },
+  {
+    "id": "HM085",
+    "category": "specials",
+    "ar": "دوسير",
+    "en": "Dessert Dousser",
+    "price": 70
+  },
+  {
+    "id": "HM086",
+    "category": "specials",
+    "ar": "كوكوشوك",
+    "en": "Coco Choc",
+    "price": 60
+  },
+  {
+    "id": "HM087",
+    "category": "specials",
+    "ar": "ليجوا",
+    "en": "Liégeois",
+    "price": 70
+  },
+  {
+    "id": "HM088",
+    "category": "specials",
+    "ar": "ميلك شيك",
+    "en": "Milkshake",
+    "price": 75
+  },
+  {
+    "id": "HM089",
+    "category": "specials",
+    "ar": "شيكولو بيستاش",
+    "en": "Choco Pistache",
+    "price": 70
+  },
+  {
+    "id": "HM090",
+    "category": "specials",
+    "ar": "بش ميليا",
+    "en": "Pêche Melba",
+    "price": 65
+  },
+  {
+    "id": "HM091",
+    "category": "specials",
+    "ar": "داي برنش",
+    "en": "Dame Blanche",
+    "price": 70
+  }
+]

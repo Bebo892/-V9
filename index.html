@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#291733" name="theme-color"/>
+<meta content="المنيو الرقمي لكافيه حلويات مصر: مشروبات وكاسات وأطباق متنوعة وأصناف مميزة." name="description"/>
+<title>منيو الكافيه | حلويات مصر</title>
+<link href="assets/logo.png" rel="icon" type="image/png"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="app.js"></script>
+<script src="cloud-prices.js" type="module"></script></head>
+<body>
+<a class="skip-link" href="#main-content">تخطي إلى المنيو</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="حلويات مصر - الصفحة الرئيسية" class="brand" href="#top">
+<img alt="الشعار الأصلي لكافيه حلويات مصر" height="65" src="assets/logo.png" width="110"/>
+<span class="brand-name">كافيه حلويات مصر</span>
+</a>
+<nav aria-label="إعدادات المنيو" class="header-actions">
+<a class="header-menu-link" href="#categories">الأقسام</a>
+<button aria-label="Switch to English" class="language-toggle" type="button"><span class="language-toggle-label">EN</span><span aria-hidden="true" class="language-toggle-icon">⇄</span></button>
+</nav>
+</div>
+</header><nav aria-hidden="true" aria-label="التنقل السريع بين الأقسام" class="sticky-categories" id="sticky-categories"><div class="sticky-categories-inner container"><button class="sticky-category-link" data-filter="hot-drinks" type="button">المشروبات الساخنة</button><button class="sticky-category-link" data-filter="cold-drinks" type="button">العصائر والمشروبات الباردة</button><button class="sticky-category-link" data-filter="dessert-cups" type="button">الكاسات والديسيرت</button><button class="sticky-category-link" data-filter="mixed-plates" type="button">أطباق متنوعة</button><button class="sticky-category-link" data-filter="specials" type="button">الأصناف المميزة</button></div></nav>
+<main id="main-content">
+<section aria-labelledby="hero-title" class="hero" id="top">
+<div class="container hero-inner">
+<div class="hero-content">
+<p class="eyebrow" dir="ltr" lang="en">Misr Sweets Café</p>
+<h1 id="hero-title">كل لحظة أحلى في كافيه حلويات مصر</h1>
+<p>اكتشف مشروباتك المفضلة وأصناف الديسيرت من منيو الكافيه.</p>
+<a class="primary-link" href="#categories">استكشف المنيو</a>
+</div>
+</div>
+</section>
+<section aria-label="البحث في المنيو" class="search-section">
+<div class="container">
+<form class="search-form" id="menu-search" role="search">
+<label for="search-input">بتدور على صنف معين؟</label>
+<div class="search-field">
+<input aria-autocomplete="list" aria-controls="search-suggestions" autocomplete="off" id="search-input" name="query" placeholder="جرّب: كابتشينو، أم علي، بانانا سبليت..." spellcheck="false" type="search"/>
+<button type="submit">بحث</button>
+</div>
+</form>
+<div aria-label="فلترة الأصناف حسب السعر" class="price-filter" role="group">
+<span class="price-filter-label">حدد ميزانيتك</span>
+<div class="price-filter-options">
+<button aria-pressed="true" class="price-filter-btn is-active" data-price-range="all" type="button">كل الأسعار</button>
+<button aria-pressed="false" class="price-filter-btn" data-price-range="under50" type="button">أقل من 50 جنيه</button>
+<button aria-pressed="false" class="price-filter-btn" data-price-range="between" type="button">50 – 100 جنيه</button>
+<button aria-pressed="false" class="price-filter-btn" data-price-range="over100" type="button">أكثر من 100 جنيه</button>
+</div>
+</div>
+<div aria-label="اقتراحات البحث" class="search-suggestions" hidden="" id="search-suggestions" role="listbox"></div>
+<p aria-live="polite" class="search-status" id="search-status" role="status"></p>
+<div class="no-results" hidden="" id="no-results" role="status"></div>
+</div>
+</section>
+<section aria-labelledby="categories-title" class="categories-section" id="categories">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">EXPLORE OUR MENU</p>
+<h2 id="categories-title">أقسام المنيو</h2>
+</div>
+<nav aria-label="أقسام الكافيه" class="category-grid">
+<a class="category-card" data-filter="hot-drinks" href="#hot-drinks"><strong>المشروبات الساخنة</strong></a>
+<a class="category-card" data-filter="cold-drinks" href="#cold-drinks"><strong>العصائر والمشروبات الباردة</strong></a>
+<a class="category-card" data-filter="dessert-cups" href="#dessert-cups"><strong>الكاسات والديسيرت</strong></a>
+<a class="category-card" data-filter="mixed-plates" href="#mixed-plates"><strong>أطباق متنوعة</strong></a>
+<a class="category-card" data-filter="specials" href="#specials"><strong>الأصناف المميزة</strong></a>
+</nav>
+<button class="reset-filter" hidden="" type="button">عرض جميع الأقسام <span aria-hidden="true">↺</span></button>
+</div>
+</section>
+<section aria-labelledby="hot-drinks-title" class="menu-section" id="hot-drinks">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">HOT DRINKS</p>
+<h2 id="hot-drinks-title">المشروبات الساخنة</h2>
+<p class="section-intro">من القهوة التركي للكابتشينو، اختار مشروبك المفضل.</p>
+</div>
+<div class="products-grid products-grid--simple"><article class="product-card product-card--simple" data-category="hot-drinks" data-name="شاي" data-name-en="Tea" data-price="35" data-product-id="HM001"><h3 class="product-title">شاي</h3><p class="price">35 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="شاي باللبن" data-name-en="Milk Tea" data-price="45" data-product-id="HM002"><h3 class="product-title">شاي باللبن</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="قهوة تركي" data-name-en="Turkish Coffee" data-price="50" data-product-id="HM003"><h3 class="product-title">قهوة تركي</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="قهوة تركي دبل" data-name-en="Double Turkish Coffee" data-price="55" data-product-id="HM004"><h3 class="product-title">قهوة تركي دبل</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="قهوة تركي باللبن" data-name-en="Turkish Coffee with Milk" data-price="60" data-product-id="HM005"><h3 class="product-title">قهوة تركي باللبن</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="نسكافيه بلاك" data-name-en="Black Nescafe" data-price="50" data-product-id="HM006"><h3 class="product-title">نسكافيه بلاك</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="نسكافيه باللبن" data-name-en="Nescafe with Milk" data-price="60" data-product-id="HM007"><h3 class="product-title">نسكافيه باللبن</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="إسبريسو سنجل" data-name-en="Single Espresso" data-price="50" data-product-id="HM008"><h3 class="product-title">إسبريسو سنجل</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="إسبريسو دبل" data-name-en="Double Espresso" data-price="55" data-product-id="HM009"><h3 class="product-title">إسبريسو دبل</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="كابتشينو" data-name-en="Cappuccino" data-price="60" data-product-id="HM010"><h3 class="product-title">كابتشينو</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="كاكاو" data-name-en="Hot Cocoa" data-price="55" data-product-id="HM011"><h3 class="product-title">كاكاو</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="hot-drinks" data-name="شيكولا جلاسيه" data-name-en="Chocolate Glacé" data-price="55" data-product-id="HM012"><h3 class="product-title">شيكولا جلاسيه</h3><p class="price">55 <small>جنيه</small></p></article></div>
+</div>
+</section>
+<section aria-labelledby="cold-drinks-title" class="menu-section" id="cold-drinks">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">COLD DRINKS</p>
+<h2 id="cold-drinks-title">العصائر والمشروبات الباردة</h2>
+<p class="section-intro">نكهات منعشة من منيو الكافيه.</p>
+</div>
+<div class="products-grid products-grid--simple"><article class="product-card product-card--simple" data-category="cold-drinks" data-name="فرابتشينو" data-name-en="Frappuccino" data-price="50" data-product-id="HM013"><h3 class="product-title">فرابتشينو</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="فلوريدا" data-name-en="Florida" data-price="55" data-product-id="HM014"><h3 class="product-title">فلوريدا</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="مانجو" data-name-en="Mango Juice" data-price="65" data-product-id="HM015"><h3 class="product-title">مانجو</h3><p class="price">65 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="كيوي" data-name-en="Kiwi Juice" data-price="120" data-product-id="HM016"><h3 class="product-title">كيوي</h3><p class="price">120 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="رمان" data-name-en="Pomegranate Juice" data-price="110" data-product-id="HM017"><h3 class="product-title">رمان</h3><p class="price">110 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="برتقال" data-name-en="Orange Juice" data-price="65" data-product-id="HM018"><h3 class="product-title">برتقال</h3><p class="price">65 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="موز" data-name-en="Banana Juice" data-price="45" data-product-id="HM019"><h3 class="product-title">موز</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="فراولة" data-name-en="Strawberry Juice" data-price="35" data-product-id="HM020"><h3 class="product-title">فراولة</h3><p class="price">35 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="جوافة" data-name-en="Guava Juice" data-price="40" data-product-id="HM021"><h3 class="product-title">جوافة</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="دوم" data-name-en="Doum Juice" data-price="50" data-product-id="HM022"><h3 class="product-title">دوم</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="ليمون" data-name-en="Lemon Juice" data-price="35" data-product-id="HM023"><h3 class="product-title">ليمون</h3><p class="price">35 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="خوخ" data-name-en="Peach Juice" data-price="46" data-product-id="HM024"><h3 class="product-title">خوخ</h3><p class="price">46 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="تمر هندي" data-name-en="Tamarind" data-price="40" data-product-id="HM025"><h3 class="product-title">تمر هندي</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="عناب" data-name-en="Hibiscus" data-price="40" data-product-id="HM026"><h3 class="product-title">عناب</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="خروب" data-name-en="Carob" data-price="40" data-product-id="HM027"><h3 class="product-title">خروب</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="مياه معدنية صغيرة" data-name-en="Small Mineral Water" data-price="15" data-product-id="HM028"><h3 class="product-title">مياه معدنية صغيرة</h3><p class="price">15 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="cold-drinks" data-name="مياه معدنية كبيرة" data-name-en="Large Mineral Water" data-price="20" data-product-id="HM029"><h3 class="product-title">مياه معدنية كبيرة</h3><p class="price">20 <small>جنيه</small></p></article></div>
+</div>
+</section>
+<section aria-labelledby="dessert-cups-title" class="menu-section" id="dessert-cups">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">DESSERT CUPS</p>
+<h2 id="dessert-cups-title">الكاسات والديسيرت</h2>
+<p class="section-intro">أصناف حلوة لكل وقت.</p>
+</div>
+<div class="products-grid products-grid--simple"><article class="product-card product-card--simple" data-category="dessert-cups" data-name="خوخ بالكريمة" data-name-en="Peach with Cream" data-price="50" data-product-id="HM030"><h3 class="product-title">خوخ بالكريمة</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="أناناس بالكريمة" data-name-en="Pineapple with Cream" data-price="50" data-product-id="HM031"><h3 class="product-title">أناناس بالكريمة</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="موز بالكريمة" data-name-en="Banana with Cream" data-price="50" data-product-id="HM032"><h3 class="product-title">موز بالكريمة</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="تفاح بالكريمة" data-name-en="Apple with Cream" data-price="55" data-product-id="HM033"><h3 class="product-title">تفاح بالكريمة</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="مانجو بالكريمة" data-name-en="Mango with Cream" data-price="55" data-product-id="HM034"><h3 class="product-title">مانجو بالكريمة</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="فراولة بالكريمة" data-name-en="Strawberry with Cream" data-price="50" data-product-id="HM035"><h3 class="product-title">فراولة بالكريمة</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كوكتيل فواكه بالكريمة" data-name-en="Fruit Cocktail with Cream" data-price="80" data-product-id="HM036"><h3 class="product-title">كوكتيل فواكه بالكريمة</h3><p class="price">80 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="فروت سالاد" data-name-en="Fruit Salad" data-price="60" data-product-id="HM037"><h3 class="product-title">فروت سالاد</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كريم كراميل" data-name-en="Crème Caramel" data-price="45" data-product-id="HM038"><h3 class="product-title">كريم كراميل</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="جيلي سادة" data-name-en="Plain Jelly" data-price="40" data-product-id="HM039"><h3 class="product-title">جيلي سادة</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="جيلي فواكه" data-name-en="Fruit Jelly" data-price="60" data-product-id="HM040"><h3 class="product-title">جيلي فواكه</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كاستر سادة" data-name-en="Plain Custard" data-price="45" data-product-id="HM041"><h3 class="product-title">كاستر سادة</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كاستر مكسرات" data-name-en="Custard with Nuts" data-price="50" data-product-id="HM042"><h3 class="product-title">كاستر مكسرات</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كاستر فواكه" data-name-en="Fruit Custard" data-price="60" data-product-id="HM043"><h3 class="product-title">كاستر فواكه</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="رز سادة" data-name-en="Rice Pudding" data-price="45" data-product-id="HM044"><h3 class="product-title">رز سادة</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="رز مكسرات / نوتيلا / كراميل" data-name-en="Rice Pudding with Nuts / Nutella / Caramel" data-price="50" data-product-id="HM045"><h3 class="product-title">رز مكسرات / نوتيلا / كراميل</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="رز بالآيس كريم" data-name-en="Rice Pudding with Ice Cream" data-price="55" data-product-id="HM046"><h3 class="product-title">رز بالآيس كريم</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="رز قشطة وبسبوسة" data-name-en="Rice Pudding with Cream and Basbousa" data-price="70" data-product-id="HM047"><h3 class="product-title">رز قشطة وبسبوسة</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="رز كنافة ولوتس" data-name-en="Rice Pudding with Kunafa and Lotus" data-price="70" data-product-id="HM048"><h3 class="product-title">رز كنافة ولوتس</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="عاشوراء سادة" data-name-en="Plain Ashoura" data-price="45" data-product-id="HM049"><h3 class="product-title">عاشوراء سادة</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="عاشوراء مكسرات" data-name-en="Ashoura with Nuts" data-price="50" data-product-id="HM050"><h3 class="product-title">عاشوراء مكسرات</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="قمر الدين" data-name-en="Qamar Al-Din" data-price="45" data-product-id="HM051"><h3 class="product-title">قمر الدين</h3><p class="price">45 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="شوكو أب" data-name-en="Choco Up" data-price="60" data-product-id="HM052"><h3 class="product-title">شوكو أب</h3><p class="price">60 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="بودنج" data-name-en="Pudding" data-price="40" data-product-id="HM053"><h3 class="product-title">بودنج</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="قطعة جلاس" data-name-en="Glace Slice" data-price="70" data-product-id="HM054"><h3 class="product-title">قطعة جلاس</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كاساتا" data-name-en="Cassata" data-price="70" data-product-id="HM055"><h3 class="product-title">كاساتا</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="كوب آيس كريم" data-name-en="Ice Cream Cup" data-price="70" data-product-id="HM056"><h3 class="product-title">كوب آيس كريم</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم صودا" data-name-en="Ice Cream Soda" data-price="100" data-product-id="HM057"><h3 class="product-title">آيس كريم صودا</h3><p class="price">100 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم فواكه" data-name-en="Fruit Ice Cream" data-price="90" data-product-id="HM058"><h3 class="product-title">آيس كريم فواكه</h3><p class="price">90 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم مكسرات" data-name-en="Nuts Ice Cream" data-price="50" data-product-id="HM059"><h3 class="product-title">آيس كريم مكسرات</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم سوفت" data-name-en="Soft Ice Cream" data-price="40" data-product-id="HM060"><h3 class="product-title">آيس كريم سوفت</h3><p class="price">40 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم أوريو" data-name-en="Oreo Ice Cream" data-price="70" data-product-id="HM061"><h3 class="product-title">آيس كريم أوريو</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="آيس كريم ٢ بولة" data-name-en="Two Scoops of Ice Cream" data-price="100" data-product-id="HM062"><h3 class="product-title">آيس كريم ٢ بولة</h3><p class="price">100 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="موس شيكولاتة" data-name-en="Chocolate Mousse" data-price="50" data-product-id="HM063"><h3 class="product-title">موس شيكولاتة</h3><p class="price">50 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="ديسباسيتو" data-name-en="Despacito Cake" data-price="55" data-product-id="HM064"><h3 class="product-title">ديسباسيتو</h3><p class="price">55 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="مولتن كيك" data-name-en="Molten Cake" data-price="70" data-product-id="HM065"><h3 class="product-title">مولتن كيك</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="مولتن كيك بالآيس كريم" data-name-en="Molten Cake with Ice Cream" data-price="110" data-product-id="HM066"><h3 class="product-title">مولتن كيك بالآيس كريم</h3><p class="price">110 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="تشيز كيك" data-name-en="Cheesecake" data-price="70" data-product-id="HM067"><h3 class="product-title">تشيز كيك</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="تري ليتش" data-name-en="Tres Leches" data-price="110" data-product-id="HM068"><h3 class="product-title">تري ليتش</h3><p class="price">110 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="فطيرة تفاح" data-name-en="Apple Pie" data-price="70" data-product-id="HM069"><h3 class="product-title">فطيرة تفاح</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="سينابون رول شيكولاتة / كراميل" data-name-en="Cinnamon Roll Chocolate / Caramel" data-price="70" data-product-id="HM070"><h3 class="product-title">سينابون رول شيكولاتة / كراميل</h3><p class="price">70 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="وافل شيكولاتة / كراميل / لوتس / فستق" data-name-en="Waffle Chocolate / Caramel / Lotus / Pistachio" data-price="90" data-product-id="HM071"><h3 class="product-title">وافل شيكولاتة / كراميل / لوتس / فستق</h3><p class="price">90 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="وافل بالآيس كريم" data-name-en="Waffle with Ice Cream" data-price="130" data-product-id="HM072"><h3 class="product-title">وافل بالآيس كريم</h3><p class="price">130 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="برطمان مانجو / شيكولاتة" data-name-en="Jar Dessert Mango / Chocolate" data-price="100" data-product-id="HM073"><h3 class="product-title">برطمان مانجو / شيكولاتة</h3><p class="price">100 <small>جنيه</small></p></article><article class="product-card product-card--simple" data-category="dessert-cups" data-name="برطمان موز كراميل / كنافة فستق" data-name-en="Jar Dessert Banana Caramel / Pistachio Kunafa" data-price="90" data-product-id="HM074"><h3 class="product-title">برطمان موز كراميل / كنافة فستق</h3><p class="price">90 <small>جنيه</small></p></article></div>
+</div>
+</section>
+<section aria-labelledby="mixed-plates-title" class="menu-section" id="mixed-plates">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">ASSORTED PLATES</p>
+<h2 id="mixed-plates-title">أطباق متنوعة</h2>
+<p class="section-intro">أطباق ومخبوزات بتفاصيل تستاهل تتشاف.</p>
+</div>
+<div class="products-grid products-grid--details">
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="حلوى شرقية دافئة بطابع بيتي غني ومميز." data-description-en="A warm traditional Egyptian dessert with a rich, comforting taste." data-name="أم علي" data-name-en="Om Ali" data-price="85" data-product-id="HM075">
+<button aria-label="عرض تفاصيل أم علي" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">أم علي</span>
+<span class="product-footer"><span class="price">85 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="كنافة مقدمة باللبن بطعم شرقي خفيف." data-description-en="Kunafa served with milk for a comforting oriental dessert." data-ingredients-ar="كنافة|لبن" data-ingredients-en="Kunafa|Milk" data-name="كنافة باللبن" data-name-en="Kunafa with Milk" data-price="60" data-product-id="HM076">
+<button aria-label="عرض تفاصيل كنافة باللبن" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">كنافة باللبن</span>
+<span class="product-footer"><span class="price">60 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="بليلة باللبن والمكسرات، اختيار دافئ ولذيذ." data-description-en="A warm wheat-and-milk dessert topped with nuts." data-ingredients-ar="قمح|لبن|مكسرات" data-ingredients-en="Wheat|Milk|Nuts" data-name="بليلة بالمكسرات" data-name-en="Wheat Pudding with Nuts" data-price="60" data-product-id="HM077">
+<button aria-label="عرض تفاصيل بليلة بالمكسرات" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">بليلة بالمكسرات</span>
+<span class="product-footer"><span class="price">60 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="اختار قطعة الجاتوه اللي تحبها من المتاح بالكافيه." data-description-en="Choose your favorite cake slice from the available selection." data-name="جاتوه من اختيارك" data-name-en="Cake of Your Choice" data-price="55" data-product-id="HM078">
+<button aria-label="عرض تفاصيل جاتوه من اختيارك" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">جاتوه من اختيارك</span>
+<span class="product-footer"><span class="price">55 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="قطعة مخبوزات بحشوة الشيكولاتة." data-description-en="A baked pastry with chocolate filling." data-ingredients-ar="مخبوزات|شوكولاتة" data-ingredients-en="Pastry|Chocolate" data-name="باتيه شيكولاتة" data-name-en="Chocolate Pastry" data-price="60" data-product-id="HM079">
+<button aria-label="عرض تفاصيل باتيه شيكولاتة" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">باتيه شيكولاتة</span>
+<span class="product-footer"><span class="price">60 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-description-ar="كرواسون بطعم الجبنة الرومي." data-description-en="A croissant with Roumy cheese." data-ingredients-ar="كرواسون|جبنة رومي" data-ingredients-en="Croissant|Roumy cheese" data-name="كرواسون رومي" data-name-en="Roumy Cheese Croissant" data-price="55" data-product-id="HM080">
+<button aria-label="عرض تفاصيل كرواسون رومي" class="product-tap" type="button">
+<span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span>
+<span class="product-info">
+<span class="product-badge">من أطباقنا</span>
+<span class="product-title">كرواسون رومي</span>
+<span class="product-footer"><span class="price">55 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="mixed-plates" data-name="باتيه جبنة" data-name-en="Cheese Pastry" data-price="60" data-product-id="HM081"><button aria-label="عرض تفاصيل باتيه جبنة" class="product-tap" type="button"><span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span><span class="product-info"><span class="product-badge">من أطباقنا</span><span class="product-title">باتيه جبنة</span><span class="product-footer"><span class="price">60 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span></span></button></article><article class="product-card product-card--detail" data-category="mixed-plates" data-name="كرواسون سادة" data-name-en="Plain Croissant" data-price="50" data-product-id="HM082"><button aria-label="عرض تفاصيل كرواسون سادة" class="product-tap" type="button"><span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span><span class="product-info"><span class="product-badge">من أطباقنا</span><span class="product-title">كرواسون سادة</span><span class="product-footer"><span class="price">50 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span></span></button></article><article class="product-card product-card--detail" data-category="mixed-plates" data-name="دنش فواكه / قرفة / نوتيلا" data-name-en="Danish Fruit / Cinnamon / Nutella" data-price="70" data-product-id="HM083"><button aria-label="عرض تفاصيل دنش فواكه / قرفة / نوتيلا" class="product-tap" type="button"><span class="product-visual plate-visual"><span aria-hidden="true" class="plate-visual-mark">✧</span><span class="plate-visual-caption">من أطباق الكافيه</span></span><span class="product-info"><span class="product-badge">من أطباقنا</span><span class="product-title">دنش فواكه / قرفة / نوتيلا</span><span class="product-footer"><span class="price">70 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span></span></button></article></div>
+</div>
+</section>
+<section aria-labelledby="specials-title" class="menu-section menu-section--featured" id="specials">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">SIGNATURE SELECTION</p>
+<h2 id="specials-title">الأصناف المميزة</h2>
+<p class="section-intro">أصناف الكافيه المميزة بالصور والتفاصيل.</p>
+</div>
+<div class="products-grid products-grid--details">
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم فانيليا وشوكولاتة وفراولة مع الموز والكريمة وصوص الشوكولاتة." data-description-en="Vanilla, chocolate and strawberry ice cream with banana, cream and chocolate sauce." data-image="assets/products/banana-split.webp" data-ingredients-ar="آيس كريم|موز|كريمة|صوص شوكولاتة" data-ingredients-en="Ice cream|Banana|Cream|Chocolate sauce" data-name="بانانا سبليت" data-name-en="Banana Split" data-price="75" data-product-id="HM084">
+<button aria-label="عرض تفاصيل بانانا سبليت" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="بانانا سبليت" height="650" loading="lazy" src="assets/products/banana-split.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">بانانا سبليت</span>
+<span class="product-footer"><span class="price">75 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم موز وشوكولاتة مع الكريمة وصوص الشوكولاتة." data-description-en="Banana and chocolate ice cream with cream and chocolate sauce." data-image="assets/products/dessert-dousser.webp" data-ingredients-ar="آيس كريم موز|آيس كريم شوكولاتة|كريمة" data-ingredients-en="Banana ice cream|Chocolate ice cream|Cream" data-name="دوسير" data-name-en="Dessert Dousser" data-price="70" data-product-id="HM085">
+<button aria-label="عرض تفاصيل دوسير" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="دوسير" height="650" loading="lazy" src="assets/products/dessert-dousser.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">دوسير</span>
+<span class="product-footer"><span class="price">70 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم جوز هند وشوكولاتة." data-description-en="Coconut and chocolate ice cream." data-image="assets/products/coco-choc.webp" data-ingredients-ar="آيس كريم جوز هند|شوكولاتة" data-ingredients-en="Coconut ice cream|Chocolate" data-name="كوكوشوك" data-name-en="Coco Choc" data-price="60" data-product-id="HM086">
+<button aria-label="عرض تفاصيل كوكوشوك" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="كوكوشوك" height="650" loading="lazy" src="assets/products/coco-choc.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">كوكوشوك</span>
+<span class="product-footer"><span class="price">60 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم فانيليا وشوكولاتة أو قهوة مع الكريمة وصوص الشوكولاتة أو القهوة." data-description-en="Vanilla and chocolate or coffee ice cream, with cream and a matching sauce." data-image="assets/products/lejua.webp" data-ingredients-ar="آيس كريم|فانيليا|شوكولاتة أو قهوة|كريمة" data-ingredients-en="Ice cream|Vanilla|Chocolate or coffee|Cream" data-name="ليجوا" data-name-en="Liégeois" data-price="70" data-product-id="HM087">
+<button aria-label="عرض تفاصيل ليجوا" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="ليجوا" height="650" loading="lazy" src="assets/products/lejua.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">ليجوا</span>
+<span class="product-footer"><span class="price">70 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="ميلك شيك بالنكهة اللي تختارها." data-description-en="A milkshake in your flavor of choice." data-image="assets/products/milkshake.webp" data-name="ميلك شيك" data-name-en="Milkshake" data-price="75" data-product-id="HM088">
+<button aria-label="عرض تفاصيل ميلك شيك" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="ميلك شيك" height="650" loading="lazy" src="assets/products/milkshake.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">ميلك شيك</span>
+<span class="product-footer"><span class="price">75 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم فستق وشوكولاتة مع الكريمة وصوص الشوكولاتة." data-description-en="Pistachio and chocolate ice cream with cream and chocolate sauce." data-image="assets/products/choco-pistache.webp" data-ingredients-ar="آيس كريم فستق|شوكولاتة|كريمة" data-ingredients-en="Pistachio ice cream|Chocolate|Cream" data-name="شيكولو بيستاش" data-name-en="Choco Pistache" data-price="70" data-product-id="HM089">
+<button aria-label="عرض تفاصيل شيكولو بيستاش" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="شيكولو بيستاش" height="650" loading="lazy" src="assets/products/choco-pistache.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">شيكولو بيستاش</span>
+<span class="product-footer"><span class="price">70 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم فانيليا مع الخوخ والكريمة وصوص التوت." data-description-en="Vanilla ice cream with peach, cream and berry sauce." data-image="assets/products/peche-melba.webp" data-ingredients-ar="آيس كريم فانيليا|خوخ|كريمة|صوص التوت" data-ingredients-en="Vanilla ice cream|Peach|Cream|Berry sauce" data-name="بش ميليا" data-name-en="Pêche Melba" data-price="65" data-product-id="HM090">
+<button aria-label="عرض تفاصيل بش ميليا" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="بش ميليا" height="650" loading="lazy" src="assets/products/peche-melba.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">بش ميليا</span>
+<span class="product-footer"><span class="price">65 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+<article class="product-card product-card--detail" data-category="specials" data-description-ar="آيس كريم فانيليا مع الكريمة وصوص الشوكولاتة." data-description-en="Vanilla ice cream with cream and chocolate sauce." data-image="assets/products/dame-blanche.webp" data-ingredients-ar="آيس كريم فانيليا|كريمة|صوص شوكولاتة" data-ingredients-en="Vanilla ice cream|Cream|Chocolate sauce" data-name="داي برنش" data-name-en="Dame Blanche" data-price="70" data-product-id="HM091">
+<button aria-label="عرض تفاصيل داي برنش" class="product-tap" type="button">
+<span class="product-visual photo-visual"><img alt="داي برنش" height="650" loading="lazy" src="assets/products/dame-blanche.webp" width="800"/></span>
+<span class="product-info">
+<span class="product-badge">صنف مميز</span>
+<span class="product-title">داي برنش</span>
+<span class="product-footer"><span class="price">70 <small>جنيه</small></span><span class="card-more">عرض التفاصيل <svg aria-hidden="true" class="details-arrow" fill="none" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85"></path></svg></span></span>
+</span>
+</button>
+</article>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-premium"><div class="footer-brand-block"><img alt="حلويات مصر" height="62" loading="lazy" src="assets/logo.png" width="104"/><h2 class="footer-title">كافيه حلويات مصر</h2><p class="footer-desc">لحظات ألذ، ومنيو أسهل — استمتع بتصفح مشروبات وحلويات الكافيه.</p></div><div class="footer-links"><h3 class="footer-links-title">تصفح المنيو</h3><a data-footer-link="categories" href="#categories">الأقسام</a><a data-footer-link="hot-drinks" href="#hot-drinks">المشروبات الساخنة</a><a data-footer-link="cold-drinks" href="#cold-drinks">المشروبات الباردة</a><a data-footer-link="specials" href="#specials">الأصناف المميزة</a></div><div class="footer-contact" id="contact">
+<h3 class="footer-contact-title">تواصل مع الكافيه</h3>
+<p class="footer-contact-desc">للاستفسارات أو معرفة تفاصيل الفروع:</p>
+<div class="footer-contact-links">
+<a aria-label="اتصل على 03 4858600" class="footer-contact-link" dir="ltr" href="tel:+2034858600">+20 3 4858600</a>
+<a aria-label="اتصل على 03 4858700" class="footer-contact-link" dir="ltr" href="tel:+2034858700">034858700</a>
+<a class="footer-map-link" href="https://google.com/maps?gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgoIABBFGBYYHhg5MgcIARAAGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIOTAyMmowajeoAgCwAgA&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=eg&amp;sa=X&amp;geocode=KQO5jXbVxPUUMYQah-ImtmNJ&amp;daddr=Al+Akbat+Church,+Al+Mesallah+Gharb+WA+Sharif+Basha,+Al+Attarin,+Alexandria+Governorate+5372011" rel="noopener noreferrer" target="_blank">عرض الموقع على Google Maps <span aria-hidden="true">↗</span></a>
+</div>
+<p class="footer-city">الإسكندرية، مصر</p>
+</div></div><div class="footer-bottom container"><p class="footer-notice">المنيو للعرض فقط • الأسعار قابلة للتحديث</p><div class="footer-bottom-actions"><a class="footer-admin-link" href="admin.html" aria-label="دخول الإدارة"><svg class="footer-admin-lock" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="14" height="11" x="5" y="11" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span class="footer-admin-text">دخول الإدارة</span></a><a class="footer-to-top" href="#top">العودة للأعلى ↑</a></div></div></footer>
+<dialog aria-describedby="dialog-product-description" aria-labelledby="dialog-product-name" class="product-dialog" id="product-dialog">
+<div class="dialog-shell">
+<span aria-hidden="true" class="sheet-grabber"></span>
+<button aria-label="إغلاق التفاصيل" class="dialog-close" type="button"><span aria-hidden="true">×</span></button>
+<div class="dialog-product-image" id="dialog-visual"></div>
+<div class="dialog-copy">
+<p class="dialog-category" id="dialog-category"></p>
+<h2 id="dialog-product-name"></h2>
+<p class="dialog-description" id="dialog-product-description"></p>
+<div class="dialog-ingredients" hidden="" id="dialog-ingredients">
+<p class="dialog-ingredients-label" id="dialog-ingredients-label">أبرز المكونات</p>
+<div class="dialog-ingredient-chips" id="dialog-ingredient-chips"></div>
+</div>
+<div class="dialog-price-row">
+<span class="dialog-price-label" id="dialog-price-label">السعر</span>
+<strong class="dialog-price" id="dialog-price"></strong>
+</div>
+</div>
+</div>
+</dialog>
+</body>
+</html>
